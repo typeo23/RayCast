@@ -1,0 +1,39 @@
+scene:
+background-col=0.1 0.2 0.3
+ambient-light=1 1 1
+background-tex = c:\\bac1.jpg
+
+camera:
+eye = -1.2 1.8 1
+look-at = 0 0 0
+screen-dist = 1
+up-direction = 0 1 0
+
+rectangle:
+p0=-2 0 -2
+p1=-2 0 2
+p2=2 0 -2
+mtl-type=checkers
+checkers-diffuse1 = 1.2 0.3 0
+checkers-diffuse0 = 0 0 0 
+reflectance = 0.3
+sphere:
+center = 0 0.6 0
+radius = 0.5
+mtl-specular=0.1 0.1 0.1
+reflectance = 0.3
+
+
+sphere:
+center= -0.6 0.9 -0.5
+radius=0.2
+mtl-type=texture
+texture=c:\\mars.jpg
+mtl-emission = 0.3 0.2 0.1
+
+
+
+light-directed:
+direction=0 -1 -1
+color= 0.8 0.8 0.8
+
